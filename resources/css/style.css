@@ -1,8 +1,62 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  text-align: center;
 }
 
+body {
+  display: block;
+  margin: 8px;
+}
+
+header h1 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
 h1 {
-  color: SeaGreen;
+  font-weight: normal;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 3.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  color: grey;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#camp {
+  height: 500px;
+  width: 95%;
+  background: url("../../resources/img/camp.jpg") center center no-repeat;
+  background-size: contain;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.download {
+  color: Aquamarine;
+}
+
+footer p {
+  text-align: right;
+  margin-right: 25px;
 }
